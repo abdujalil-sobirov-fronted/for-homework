@@ -1,11 +1,8 @@
-let n = 2;
-let x = 2;
-let natija = 0;
-for (let i = 1 ; i<=(2*n+1) ; i++) {
-    let k = 1;
-    let d = 1;
-    for (let j = 1; j<=i ; j++) {
-        x = x**j;
-    }
+n = 6;
+p = 1;
+x = 2;
+for (let i = 1; i<=n; i++) {
+  p *= i;
+  x = x**i;
+  console.log(x);
 }
-console.log(x);
